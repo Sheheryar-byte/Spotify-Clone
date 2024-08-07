@@ -23,6 +23,10 @@ class AppTheme{
 
 
       focusedBorder: _border(Pallete.gradient2),
-    ),
+    ), 
+
+    bottomNavigationBarTheme:const BottomNavigationBarThemeData(
+      backgroundColor: Pallete.backgroundColor,
+    )
   );
 }
